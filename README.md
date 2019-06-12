@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # NgChileautos
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
@@ -26,7 +26,18 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# inicioantgular
-Clase de uso de angular
->>>>>>> 1951bc59303260e8020771aff5ec452783b4a64d
+
+
+
+
+## 1.- Intalación CLI 
+	npm install -g @angular/cli
+
+## 2.- Creación de aplicación (tag: Inicio)
+	ng new ng-chileautos
+	cd ng-chileautos
+	ng serve
+
+## 3.- Crear componente
+	ng generate component listaPaises --spec false --inline-template --inline-style
+	ng generate component listaEstados --spec false
