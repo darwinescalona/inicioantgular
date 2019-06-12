@@ -41,3 +41,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## 3.- Crear componente
 	ng generate component listaPaises --spec false --inline-template --inline-style
 	ng generate component listaEstados --spec false
+
+### 3.1.- Instalando boostrap
+  npm install bootstrap jquery popper
+  npm install font-awesome
+  Agregar los estilos de bootstrap a angular.json
+            "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              “node_modules/font-awesome/css/font-awesome.css”,
+              "src/styles.scss"
+            ],
