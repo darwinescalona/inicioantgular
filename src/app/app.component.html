@@ -2,28 +2,38 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
 <div class="container">
+
+  <nav class="navbar navbar-dark bg-dark">
+    <!-- Navbar content -->
+    <a class="navbar-brand" href="#">Menú</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/Paises">Países</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/Regiones">Regiones</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        Inicio Angular
+      </span>
+    </div>
+  </nav>
+
   <div style="text-align:center">
     <h1>
-      Welcome to {{ title }}!
+      Welcome to {{ title }}
     </h1>
-    </div>
-  <h2>Here are some links to help you start: </h2>
-  <ul>
-    <li>
-      <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-    </li>
-    <li>
-      <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-    </li>
-    <li>
-      <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-    </li>
-  </ul>
+  </div>
 
   <router-outlet></router-outlet>
-  <p>Made with <i class="fa fa-heart"></i> with bootstrap and font-awesome</p>
-  <hr>
-  <h1>Componente lista-paises</h1>
 
-  <app-lista-paises></app-lista-paises>
 </div>

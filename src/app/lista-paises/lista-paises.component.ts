@@ -14,8 +14,6 @@ import { Component,
     <p>
       lista-paises works!
     </p>
-    <h5>Componente lita estados en lista paises</h5>
-    <app-lista-estados></app-lista-estados>
   `,
   styles: []
 })

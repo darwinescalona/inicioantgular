@@ -49,5 +49,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               “node_modules/font-awesome/css/font-awesome.css”,
-              "src/styles.scss"
+              "src/styles.css"
             ],
+
+            "scripts": [
+              "node_modules/jquery/dist/jquery.slim.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
+
+            
+  npm install  @ng-bootstrap/ng-bootstrap
